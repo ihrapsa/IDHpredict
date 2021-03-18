@@ -9,9 +9,10 @@ I've modified and adapted the code to test multiple patiatients into a single ru
 
 ### How to use the script:
 
-To test your cases, create inside `./INPUT` a separate directory for each patient and rename it to its unique `id`. Inside each patient's directory put the 3 axial MRI DICOM directories renamed to: `T1C`, `T2` and `FLAIR`.
-
-The script outputs a `predict.csv` file inside `./OUTPUT` where all prediction scores are listed alongside patient's `id`.
+1. To test your cases, create inside `./INPUT` a separate directory for each patient and rename it to its unique `id`. Inside each patient's directory put the 3 axial MRI DICOM directories renamed to: `T1C`, `T2` and `FLAIR`.
+2. Edit the `age.csv` file and populate it with your patients' `age` and `id`.
+3. Run `main.py`
+4. The script outputs a `predict.csv` file inside `./OUTPUT` where all prediction scores are listed alongside patient's `id`.
 
 * The code to test one sample using Jupyter-Notebook is avaialble at https://github.com/ihrapsa/automated_hybrid_IDH
  
