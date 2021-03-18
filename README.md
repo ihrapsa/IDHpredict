@@ -13,5 +13,5 @@ To test your cases, create inside `./INPUT` a separate directory for each patien
 
 The script outputs a `predict.csv` file inside `./OUTPUT` where all prediction scores are listed alongside patient's `id`.
 
-* The code to test one sample is avaialble as a Jupiter-Notebook in releases. 
+* The code to test one sample using Jupyter-Notebook is avaialble at https://github.com/ihrapsa/automated_hybrid_IDH
  
