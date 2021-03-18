@@ -1,11 +1,12 @@
 # IDHpredict
-This is a public repository for ["Fully Automated Hybrid Network to Predict IDH Mutation Status of Glioma via Deep Learning and Radiomics"](https://academic.oup.com/neuro-oncology/article-abstract/23/2/304/5876011) by Choi et al.
+This is a public repository for ["Fully Automated Hybrid Network to Predict IDH Mutation Status of Glioma via Deep Learning and Radiomics"](https://academic.oup.com/neuro-oncology/article-abstract/23/2/304/5876011) by Choi et al. The core code is entirely based on [yoonchoi-neuro/automated_hybrid_IDH](https://github.com/yoonchoi-neuro/automated_hybrid_IDH).
+
  The automated hybrid model consists of UNet-based Model1 for tumor segmentation, ResNet-based Model 2 for IDH status prediction, and automated processing pipeline inbetween. Model 2 integrates 2D MR images, radiomic features of 3D tumor shape & loci, and age in one CNN. 
 
 --------------------------------------------------------------------
 ![alt_text](https://github.com/ihrapsa/automated_hybrid_IDH/blob/master/workflow.png)
 --------------------------------------------------------------------
-I've modified and adapted the code to test multiple patients into a single run. I've also added the skulstripping part that is missing from the original repo. 
+I've modified and adapted the code into a script in order to test multiple patients on a single run. I've added the conversion part from DICOM `.dcm` to NIFTI `nii.gz` using the `dcm2niix` tool by [rordenlab](https://github.com/rordenlab/dcm2niix).  I've also added the skulstripping part that is missing from the original repo. 
 
 ### How to use the script:
 
