@@ -88,7 +88,7 @@ def model_testing(pathin, pathout):
     sla_features_norm = sla_features
 
     for i in range(len(sla_features.columns)):
-        sla_features_norm.iloc[0, i] = (sla_features.iloc[0, i] - sla_features_mean.iloc[0, i])/sla_features_std.iloc[0, i]
+        sla_features_norm.iloc[0, i] = sla_features.iloc[0, i] - sla_features_mean.iloc[0, i]
 
     # ####
 
