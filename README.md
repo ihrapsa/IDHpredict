@@ -20,9 +20,18 @@ I've modified and adapted the code into a script in order to test multiple patie
 3. Run `main.py`
 4. The script outputs a `predict.csv` file inside `./OUTPUT` where all prediction scores are listed alongside patient's `id`.
 
-* Inside `Split` directory the script was split into two. 
+* Inside `Split` directory the script was split into two to separate image proccesing and MODEL1 from MODEL2. 
 
 * The code to test one sample using Jupyter-Notebook is avaialble at https://github.com/ihrapsa/automated_hybrid_IDH
 
+_____________________________________________________
+
 #### Credits:
 [yoonchoi-neuro](https://github.com/yoonchoi-neuro) - for the hard work she put into this
+
+_____________________________________________________
+
+#### Contact:
+
+💬 discord: jonah1024#4422  
+:email: email: hrapsaiona@gmail.com
