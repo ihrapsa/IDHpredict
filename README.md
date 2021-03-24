@@ -27,8 +27,8 @@ I've modified and adapted the code into a script in order to test multiple patie
 _____________________________________________________
 
 #### Credits:
-[yoonchoi-neuro](https://github.com/yoonchoi-neuro) - for the hard work she put into this
-
+[yoonchoi-neuro](https://github.com/yoonchoi-neuro) - for the hard work she put into this  
+Neo - for all the support
 _____________________________________________________
 
 #### Contact:
