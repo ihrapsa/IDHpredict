@@ -8,6 +8,11 @@ This is a public repository for ["Fully Automated Hybrid Network to Predict IDH 
 --------------------------------------------------------------------
 I've modified and adapted the code into a script in order to test multiple patients on a single run. I've added the conversion part from DICOM `.dcm` to NIFTI `nii.gz` using the `dcm2niix` tool by [rordenlab](https://github.com/rordenlab/dcm2niix).  I've also added the skulstripping part that is missing from the original repo. 
 
+
+ * Python module requirements : Nipype / FSL / ANTs / PyRadiomics / PyTorch
+ * The process resquires GPU.
+
+
 ### How to use the script:
 
 1. To test your cases, create inside `./INPUT` a separate directory for each patient and rename it to its unique `id`. Inside each patient's directory put the 3 axial MRI DICOM directories renamed to: `T1C`, `T2` and `FLAIR`.
@@ -15,5 +20,9 @@ I've modified and adapted the code into a script in order to test multiple patie
 3. Run `main.py`
 4. The script outputs a `predict.csv` file inside `./OUTPUT` where all prediction scores are listed alongside patient's `id`.
 
+* Inside `Split` directory the script was split into two. 
+
 * The code to test one sample using Jupyter-Notebook is avaialble at https://github.com/ihrapsa/automated_hybrid_IDH
- 
+
+#### Credits:
+[yoonchoi-neuro](https://github.com/yoonchoi-neuro) - for the hard work she put into this
