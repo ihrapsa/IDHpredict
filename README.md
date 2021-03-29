@@ -28,7 +28,7 @@ _____________________________________________________
 
 #### Credits:
 [yoonchoi-neuro](https://github.com/yoonchoi-neuro) - for the hard work she put into this  
-Neo - for all the support
+[teo2mirce](https://github.com/teo2mirce) - for all the support
 _____________________________________________________
 
 #### Contact:
