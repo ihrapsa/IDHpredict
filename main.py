@@ -92,7 +92,7 @@ def model_testing(pathin, pathout):
 
     # ####
 
-    sla_features_norm = np.array(sla_features)
+    sla_features_norm = np.array(sla_features_norm)
     sla_arr = np.repeat(sla_features_norm, 5, axis=0)
     sla_arr.shape
 
